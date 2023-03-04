@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0% ;
+}
+
+#player{
+    width: 360px;
+    margin: auto;
+}
+header{
+    text-align: center;
+    color: #ffffff;
+     text-transform: capitalize;
+     font-family: cursive;
+     height: 300px;
+}
+.header_image{
+    width: 200px;
+    height: 140px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+header p{
+    font-size: 22px;
+}
+header h2{
+    font-size: 30px;
+}
+
+/* content */
+
+#content{
+    background-color: rgb(226, 225, 225);
+    border-radius: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buttons img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 15px;
+}
+#volume{
+    text-align: center;
+}
+#volume input{
+    width: 100%;
+}
+input[type="range" i]{
+    -webkit-appearance: none;
+    height: 4px;
+    margin: 0%;
+}
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#volume h2{
+    margin: 15px 0px;
+}
+
+/* color */
+
+#color{
+    text-align: center;
+    margin-top: 20px;
+}
+#color button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+#color1{
+    background: green;
+}
+#color2{
+    background: black;
+}
+#color3{
+    background: #8b2586;
+}
+#color4{
+    background: #d4d400;
+}
+#download{
+    text-align: center;
+    margin-top: 40px;
+}
+#download2{
+    width: 100%;
+    
+}
+.download2 img{
+    width: 90%;
+    margin-top: 10px;
+}

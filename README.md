@@ -1,4 +1,4 @@
-# Live Radio Qura
+# Live Radio Quran
 
 
 https://h-akim.github.io/LiveRadioQuran/
